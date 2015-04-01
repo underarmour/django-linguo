@@ -9,7 +9,7 @@ setup(
     package_data={'linguo': ['tests/locale/*/LC_MESSAGES/*']},
     version=linguo.__version__,
     description=linguo.__doc__,
-    long_description=open('README.rst').read(),
+    long_description=open('README.md').read(),
     classifiers=[
         'Framework :: Django',
         'Intended Audience :: Developers',
@@ -17,7 +17,7 @@ setup(
         'Operating System :: OS Independent',
         'Topic :: Software Development'
     ],
-    author='Zach Mathew',
-    url='http://github.com/zmathew/django-linguo',
+    author='Zach Mathew, UACF',
+    url='http://github.com/underarmour/django-linguo',
     license='BSD',
 )
