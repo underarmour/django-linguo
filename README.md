@@ -240,7 +240,9 @@ the automatic routing** to the current active language.
 ## Running the tests
 
 ```
-./manage.py test linguo.tests --settings=linguo.tests.settings
+pip install django
+pip install -e .
+django-admin.py test --settings=linguo.tests.settings
 ```
 
 
